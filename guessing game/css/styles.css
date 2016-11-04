@@ -1,0 +1,67 @@
+body {
+	background: url('../image/money.jpg');
+}
+#wrapper {
+	background-color: #d3d3d3;
+	width: 900px;
+  height: 900px;
+  margin: auto;
+  border: 1px solid gold;
+  box-shadow: 0 0 10px 5px gold;
+}
+h1, h2{
+  color: purple ;
+  text-align: center;
+  padding-top: 150px;
+  font-family: Verdana;
+  text-shadow: 4px 4px 8px #000000;
+}
+p {
+	
+	text-align: center;
+	font-family: Verdana;
+	margin: auto;
+	color: purple;
+	text-shadow: 4px 4px 8px #000000;
+	
+
+}
+input {
+	margin-left: 350px;
+	border: 1px solid gold;
+	font-weight: bold;
+
+}
+button {
+	background-color: red;
+  color: white;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  margin-left: 335px;
+  margin-top: 50px;
+  
+}
+button:hover { 
+    background-color: khaki;
+    color: grey;
+    box-shadow: 0 0 10px 5px grey;  
+}
+#guesses {
+	font-size: 50px;
+	color: purple;
+	text-shadow:4px 4px 8px #000000;
+}
+#lastResult {
+	font-size: 50px;
+	color: red;
+	text-shadow: 4px 4px 8px #000000;
+}
+#lowOrHi {
+	font-size: 50px;
+	color: purple;
+	text-shadow: 4px 4px 8px #000000;
+}
+#guessField {
+	color: purple;
+}

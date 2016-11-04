@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+    <title>Number guessing game</title>
+     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    
+  </head>
+
+  <body>
+  <div id="wrapper">
+      <h1>Number guessing game</h1>
+    <div class="form">
+     <label for="guessField" id = "field"><p>Welcome to the guessing game. I'll pick a number between 1 and 100 <br>and you try to guess what it is. You get 7 tries.</p></label><br>
+     <input type="text" id="guessField"><br>
+     <button id="guessSubmit" class="w3-btn w3-hover-khaki">Good Luck</button>
+   </div>
+    <p id="guesses"></p>
+    <p id="lastResult"></p>
+    <p id="lowOrHi"></p>
+     <p></p>
+</div>
+  </body>
+
+  <script>
+ var randomNumber = Math.floor(Math.random() * 100) + 1;
+var guesses = document.getElementById("guesses");
+var lastResult = document.getElementById("lastResult");
+var lowOrHi = document.getElementById("lowOrHi");
+var guessSubmit = document.getElementById("guessSubmit");
+var guessField = document.getElementById("guessField");
+var guessCount = 1;
+
+function checkGuess() {
+  var userGuess = Number(guessField.value);
+  guesses.innerHTML += userGuess + " ";
+   
+
+  if(guessCount == 7) {
+    lastResult.innerHTML = "!!!GAME OVER!!! Number is " + randomNumber;
+    
+  } else {
+    
+    if(userGuess == randomNumber) {
+      lastResult.innerHTML = "Congratulations! You got it right!";
+      lowOrHi.innerHTML = "";
+
+      
+    } else {
+      lastResult.innerHTML = "Wrong!";
+      if(userGuess < randomNumber) {
+        lowOrHi.innerHTML = "Your guess is too low!";
+      } else if(userGuess > randomNumber) {
+        lowOrHi.innerHTML = "Your guess is too high!";
+      }
+    }
+    guessCount++;
+    guessField.value = "";
+  }
+}
+
+guessSubmit.onclick = checkGuess;
+  </script>
+</html>
