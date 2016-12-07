@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+html, body{
+	margin:0;
+	padding:0;
+	font-family: 'Raleway', sans-serif!important;
+	font-size:14px;
+	color:#fff;
+	line-height:1.6em;
+	width: 100%;
+	min-height: 100%;
+  background: linear-gradient(-45deg,#5b5b5b,  white);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+h1,h2,h3{
+ font-family: 'Cinzel Decorative', cursive!important;
+}
+.secon h3{
+  color: #1E90FF;
+}
+
+.top{
+	margin-top: 70px;
+}
+
+.center{
+	text-align: center;
+}
+
+.team{
+	text-align: center;
+	background-color: #333;
+	/* width: 100%; */
+	min-height: 150px;
+	padding-top:23px;
+	color: white;
+}
+
+.member{
+	display: inline-block;
+	margin-left: 139px;
+	margin-right: 179px;
+	margin-top: 20px;
+	border: 4px solid #d0daea;
+	vertical-align: top;
+	width: 65px;
+	height: 65px;
+	border-radius: 50px;
+	overflow: hidden;
+}
+
+.footer{
+	background-color:  #333;
+	width: 100%;
+	min-height: 100px;
+	color: white;
+	padding-top: 45px;
+	
+}
+
+.right{
+	text-align: right;
+}
+
+
+
+#teachers .title3{color: #474638;}
+
+.teachers{padding-bottom: 30px;}
+.teachers a{display: block; text-decoration: none; text-align: center;}
+.teachers a figure{display: inline-block; padding-bottom: 15px;}
+.teachers a figure img{border: 7px solid #d0daea;
+transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out;
+}
+.teachers a:hover figure img{border-color: gold;}
+.teachers a .caption{ color:  #d0daea;
+transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out;
+}
+.teachers a:hover .caption{ color: #f7f5e2;}
+.teachers a .caption .txt1{font-family: 'Ubuntu'; font-size: 18px; font-weight: 500;}
+.teachers a .caption .txt2{font-family: 'Roboto'; font-style: italic; font-size: 14px; font-weight: 700;}
+
+#what{position: relative; background: url(../images/px3.jpg) center top repeat; padding: 40px 0 30px;}
+
+.offer1{padding-bottom: 20px; text-align: center;}
+.offer1 .ic1{margin-bottom: 10px; color: #f7f5e2;}
+.offer1 .ic1 i{ font-size: 55px; line-height: 1;}
+.offer1 .txt1{font-family: 'Ubuntu'; font-weight: 500; font-size: 18px; color: #f7f5e2; padding-bottom: 0px;}
+.offer1 .txt2{font-family: 'Ubuntu'; font-weight: 300; font-size: 16px; color: #f7f5e2;}
+
+
+
+
+/***************************** nav bar start  ****************************************************************/
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+// html, body {
+//   margin: 0;
+//   min-width: 100%;
+//   vertical-align: center;
+//   background: #000;
+//   background: url('img/b1.jpg');
+//   background-position: center;
+// }
+
+h1  {
+  width: 100%;
+  text-align: center;
+  color:#1E90FF;
+
+}
+
+
+
+
+
+/*******************************END Navbar**************************************/
+
+
+
+/******************************HOTEL Section Start******************************/
+
+.imgHotel {
+  width: 100%;
+  box-shadow: 2px 2px 8px black;
+}
+
+.imgHotel:hover {
+  opacity:.60;
+  filter:alpha(opacity=60);
+  filter: grayscale(90);
+}
+
+.imgGallery {
+  /*margin: 50px;*/
+  width: 100%;
+  padding: 20px;
+  transition: all .2s ease-in-out;
+  box-shadow: 2px 2px 8px black;
+}
+
+.imgGallery:hover {
+transform: scale(1.6);
+}
+
+.hotel h2 {
+  /*margin-bottom: 50px;*/
+  text-align: center;
+  font-style: italic;
+  font-family: Roboto;
+   color: #1E90FF;
+   font-family: 'Cinzel Decorative', cursive;
+}
+
+.hotel p {
+  color: #fff;
+}
+
+.hotel h2, p {
+  color: #fff;
+}
+.textHotel{
+  padding-top: 20px;
+}
+.textHotel img, p {
+  width: 100%;
+  display: flex;
+  align-items: center;
+ /*  justify-content: center; */
+  /*padding: 80px;*/
+}
+/**************************************End HOTEL Section***************************************/
+
+
+/*************************** map *********************************************/
+// .cont{
+//   width: 100%;
+//   margin: 0 auto;
+//   margin-top:50px;
+// }
+
+// #map_container{
+//   position: relative;
+// }
+// #map{
+//     height: 0;
+//     overflow: hidden;
+//     padding-bottom: 22.25%;
+//     padding-top: 30px;
+//     position: relative;
+// }
+
+#google_map{
+  position: relative; width: 100%; height: 350px;
+  box-shadow: 0;
+}
+
+/************************* map end ****************************************/
+
+
+/**********************FORMS START***************************/
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+form {
+    border-radius: 5px;
+    background-color: white;
+    padding: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+    
+
+}
+.logsign {
+  /* background: url(../img/bg.jpg); */
+  background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+
+}
+.log {
+  border: 1px solid grey;
+  border-radius: 5px;
+  background: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 50px;
+  box-shadow: 2px 2px 8px black;
+
+}
+/*******************************forms end***************************/
+
+
+/************gallery css*************************************************/
+.modal-dialog {width:700px;}
+.thumbnail {margin-bottom:6px;}
+img.thumbnail {
+    box-shadow: 2px 2px 8px black;
+}
+.gallery{
+  color: #333;
+  padding-top: 50px;
+}
+.gallery h1{
+  color: #1E90FF;
+  font-family: 'Cinzel Decorative', cursive;
+}
+/*****************end gallery css****************************************/
+
+
+/***********************Restaurant Start*************************/
+hr.style18 { 
+  height: 30px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+} 
+hr.style18:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px; 
+}
+.img-centered {
+  margin: 0 auto;
+}
+
+section {
+  padding: 100px 0;
+}
+section h2 {
+  margin: 0;
+   color: #1E90FF;
+  font-family: 'Cinzel Decorative', cursive;
+}
+section.success {
+  background: #f4f0e6;
+  color: white;
+}
+@media (max-width: 767px) {
+  section {
+    padding: 75px 0;
+  }
+  section.first {
+    padding-top: 75px;
+  }
+}
+#menu .menu-item {
+  margin: 0 0 15px;
+  right: 0;
+}
+#menu .menu-item .menu-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+#menu .menu-item .menu-link .caption {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+#menu .menu-item .menu-link .caption:hover {
+  opacity: 1;
+}
+#menu .menu-item .menu-link .caption .caption-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+#menu .menu-item .menu-link .caption .caption-content i {
+  margin-top: -12px;
+}
+#menu .menu-item .menu-link .caption .caption-content h3,
+#menu .menu-item .menu-link .caption .caption-content h4 {
+  margin: 0;
+}
+#menu * {
+  z-index: 2;
+}
+@media (min-width: 767px) {
+  #menu .menu-item {
+    margin: 0 0 30px;
+  }
+}
+
+ 
+.menu-modal .modal-content {
+  border-radius: 0;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  min-height: 100%;
+  padding: 100px 0;
+  text-align: center;
+}
+.menu-modal .modal-content h2 {
+  margin: 0;
+  font-size: 3em;
+}
+.menu-modal .modal-content img {
+  margin-bottom: 30px;
+}
+.menu-modal .modal-content .item-details {
+  margin: 30px 0;
+}
+.menu-modal .close-modal {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+.menu-modal .close-modal:hover {
+  opacity: 0.3;
+}
+.menu-modal .close-modal .lr {
+  height: 75px;
+  width: 1px;
+  margin-left: 35px;
+  background-color: #2C3E50;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Safari and Chrome */
+  z-index: 1051;
+}
+.menu-modal .close-modal .lr .rl {
+  height: 75px;
+  width: 1px;
+  background-color: #2C3E50;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  /* Safari and Chrome */
+  z-index: 1052;
+}
+.menu-modal .modal-backdrop {
+  opacity: 0;
+  display: none;
+}
+
+.menu-item h5,  p{
+  color: #000;
+}
+.menu-item h2{
+   color: #00BFFF;
+   font-family: 'Cinzel Decorative', cursive;
+}
+/***********************Restaurant END*************************/
+
+
+/*****************************************************************************/
+/*****************************************************************************/
+
+
+/***********************START Ski Slope Map**************************/
+.imgSlope {
+  width: 100%;
+  box-shadow: 2px 2px 8px black;
+}
+/***********************END Ski Slope Map**************************/
+
+
+/*********************** Start Team Images Circles *******************/ 
+.person {
+      border: 20px solid transparent;
+      margin-bottom: 25px;
+      width: 100%;
+      height: 100%;
+      opacity: 1.0;
+}
+
+.person p {
+  font-size: 16px;
+}
+
+.person:hover {
+      border-color: #2D515F;
+}
+/*.nothing{
+  height: 90vh;
+  }*/
+/*********************** END Team Images Circles *******************/ 
+
+/***********************Rental page starts**************************/
+.rented{
+      min-height: 500px;
+      margin-top: 50px;
+      box-shadow: 2px 2px 8px black;
+      color: #333;
+      background: white;
+    }
+    .rented th{
+      background: #1E90FF;
+      color: white;
+      
+    }
+    table{
+      text-align: center;
+      border:#1E90FF;
+    }
+    .rented h1, h2, h3{
+      text-align: left;
+    }
+    .rented h1{
+      color: #1E90FF;
+      font-family: 'Cinzel Decorative', cursive;
+    }
+  /*********************Rental page ends*************************/
+
+
+
+  /********************* BOOKING start *************************************/
+  form .trasnparenT {
+    opacity: 0.7;
+  }
+  .book{
+     box-shadow: 2px 2px 8px black;
+  }
+  /********************* BOOKING start *************************************/
+  /************************Contact form starts*************************/
+  .well{
+    box-shadow: 2px 2px 8px black!important;
+  }
+  /************************Contact form ends*************************/
+  .welcome{
+    padding-top: 80px;
+    height: 90vh;
+  
+  }
